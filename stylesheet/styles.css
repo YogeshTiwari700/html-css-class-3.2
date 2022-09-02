@@ -42,9 +42,9 @@ color: var(--secondary-color);
 .link-secondary {
    color: var(--secondary-color);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
+    border: 1.2px solid var(--secondary-color);
     padding: 0.5rem 0.5rem;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
  
 .non-bullet {
@@ -97,6 +97,7 @@ color: var(--secondary-color);
 }
 .section {
     padding: 2rem;
+    padding-bottom: 6rem;
     
 }
 .section h1 {
@@ -105,18 +106,28 @@ color: var(--secondary-color);
 }
 .section p {
     text-align: center;
+    padding: 2rem;
 }
 .ow  {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    padding-bottom: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 .footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    padding: 2rem 1rem;
-    border-bottom-right-radius: 1rem;
+    padding: 6rem 1rem;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
     text-align: center;
-   
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+.footer .footer-header {
+    font-weight: bolder;
+
 }
  
 .link {
