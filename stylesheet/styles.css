@@ -37,7 +37,8 @@ background-color: var(--primary-color);
 border-radius: 0.5rem;
 padding: 0.5rem 0.5rem;
 color: var(--secondary-color);
-margin: .5rem 1rem;
+margin: 1.5rem 2rem;
+display: flex;
 }
 
 .link-secondary {
@@ -47,7 +48,9 @@ margin: .5rem 1rem;
     /* border: 1.2px solid var(--secondary-color); */
     padding: 0.5rem 0.5rem;
     /* color: var(--primary-color); */
-    margin: .5rem 1rem;
+    margin: 1.5rem 2rem;
+    display: flex;
+    
 }
  
 .non-bullet {
